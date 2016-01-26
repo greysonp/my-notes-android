@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<FrameLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.greysonparrelli.mynotes.NoteEditorActivity">
+    android:layout_height="match_parent">
 
-    <com.greysonparrelli.mynotes.view.NoteEditorWebView
+    <FrameLayout
+
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-    </com.greysonparrelli.mynotes.view.NoteEditorWebView>
-</RelativeLayout>
+        android:layout_height="match_parent" />
+
+</FrameLayout>
